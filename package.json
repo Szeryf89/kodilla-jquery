@@ -1,0 +1,26 @@
+{
+  "name": "module-js-kodilla",
+  "version": "1.0.0",
+  "description": "js module",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "kodilla-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Szeryf89/kodilla-jquery.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Marcin Radomski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Szeryf89/kodilla-jquery.git/issues"
+  },
+  "homepage": "https://github.com/Szeryf89/kodilla-jquery.git#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}
