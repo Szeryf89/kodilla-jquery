@@ -1,0 +1,40 @@
+#carousel {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid $borderBlack;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    > {
+    #leftArrow {
+        position: absolute;
+        top: 150px;
+        left: 5px;
+        cursor: pointer;
+        color: $redArrow;
+        }
+
+    #rightArrow {
+        position: absolute;
+        top: 150px;
+        left: 360px;
+        cursor: pointer;
+        color: $greenArrow;
+        }
+    }
+
+    ul {
+        list-style: none;
+        width: 2000px;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+        width: 400px;
+        height: 300px;
+        float: left;
+    }
+}
